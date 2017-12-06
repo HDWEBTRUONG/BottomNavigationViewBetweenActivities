@@ -1,5 +1,8 @@
 package mobi.garden.bottomnavigationtest;
 
+import android.view.View;
+import android.widget.Toast;
+
 public class HomeActivity extends BaseActivity {
 
 
@@ -12,5 +15,6 @@ public class HomeActivity extends BaseActivity {
     int getNavigationMenuItemId() {
         return R.id.navigation_home;
     }
+
 
 }
